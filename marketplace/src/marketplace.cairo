@@ -132,6 +132,7 @@ mod MarketPlace {
     impl ReentrancyGuardInternalImpl = ReentrancyGuardComponent::InternalImpl<ContractState>;
 
 
+    use snforge_std::PrintTrait;
     #[storage]
     struct Storage {
         hash_domain: felt252,
